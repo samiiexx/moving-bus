@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
@@ -18,27 +18,24 @@ img{
 
 .sky{
     height: 40vh;
-    /* background: skyblue; */
-    background: linear-gradient(to top, rgba(228, 117, 13, 0.8), rgba(0,0,0,0.8));
-    position: relative;
+    background: skyblue;
 }
 
-.cloud {
-    width: 150px;
-    height: auto;
+.cloud-1 {
     position: absolute;
-    top: 150px;
-    right: 0;
-    animation: cloud 10s ease-in infinite reverse;
+    animation: cloud 10s ease-in infinite;
+}
+
+.cloud-2 {
+    position: absolute;
+    top: 50px;
+    animation: cloud 10s 3s ease-in infinite reverse;
+
 }
 
 .grass {
     height: 30vh;
-    /* background: rgb(29, 44, 35); */
-    /* background: rgb(36, 29, 29); */
-    /* background: #333333; */
-    /* background: rgb(80, 80, 80); */
-    background: linear-gradient(rgb(53, 44, 44),rgb(46, 36, 36));
+    background: seagreen;
 }
 
 .lagos {
@@ -74,7 +71,7 @@ img{
     animation: drive 5s ease-out forwards infinite reverse;
 }
 
-.car {
+.bike {
     position: absolute;
     top: -50px;
     left: 0;
@@ -95,16 +92,9 @@ img{
 
 @keyframes cloud {
     0% {
-        transform: translateX(300px);
-        /* transform: translateY(200px); */
-    }
-    50% {
-        transform: translateY(180px);
-        /* transform: translateX(-1500px); */
+        transform: translateX(-450px);
     }
     100%{
-        transform: translateX(-2000px);
-        /* transform: translateY(-200px); */
-
+        transform: translateX(1800px);
     }
 }
