@@ -34,14 +34,16 @@ img{
 }
 
 .grass {
-    height: 300px;
+    /* height: 300px; */
+    height: 30vh;
     background: seagreen;
 }
 
 .lagos {
     position: absolute;
     width: 100%;
-    top: -300px;
+    top: -35vh;
+    /* top: -300px; */
 }
 
 .road {
