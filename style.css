@@ -29,7 +29,7 @@ img{
     position: absolute;
     top: 150px;
     right: 0;
-    animation: cloud 15s ease-in-out infinite reverse;
+    animation: cloud 10s ease-in infinite reverse;
 }
 
 .grass {
@@ -95,11 +95,11 @@ img{
 
 @keyframes cloud {
     0% {
-        transform: translateX(1000px);
+        transform: translateX(300px);
         /* transform: translateY(200px); */
     }
     50% {
-        transform: translateY(150px);
+        transform: translateY(180px);
         /* transform: translateX(-1500px); */
     }
     100%{
