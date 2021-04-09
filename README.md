@@ -21,5 +21,3 @@ This is a test project for a moving bus and car using CSS Animations.
 
 ## License
 Copyright (c) 2021 Favour Samuel.
-
-For enquiries please contact me at [favour@starboxtech.com](mailto:favour@starboxtech.com).
