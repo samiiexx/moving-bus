@@ -12,7 +12,7 @@ This is a test project for a moving bus and car using CSS Animations.
 
 ## Install
 ```
-    $ git clone git@github.com:samiiexx/sam-bus.git main
+    $ git clone git@github.com:samiiexx/moving-bus.git main
     $ cd main
 ```
 
